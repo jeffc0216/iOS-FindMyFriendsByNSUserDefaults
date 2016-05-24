@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F06F581CF415000044DEEB /* PathDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F06F571CF415000044DEEB /* PathDataViewController.m */; };
+		58F399CD1CF14A2A002EA589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F399CC1CF14A2A002EA589 /* main.m */; };
+		58F399D01CF14A2A002EA589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F399CF1CF14A2A002EA589 /* AppDelegate.m */; };
+		58F399D31CF14A2A002EA589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F399D21CF14A2A002EA589 /* ViewController.m */; };
+		58F399D61CF14A2A002EA589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F399D41CF14A2A002EA589 /* Main.storyboard */; };
+		58F399D81CF14A2A002EA589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F399D71CF14A2A002EA589 /* Assets.xcassets */; };
+		58F399DB1CF14A2A002EA589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F399D91CF14A2A002EA589 /* LaunchScreen.storyboard */; };
+		58F399E51CF14C53002EA589 /* pointRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F399E21CF14C53002EA589 /* pointRed.png */; };
+		58F399E61CF14C53002EA589 /* pointRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F399E31CF14C53002EA589 /* pointRed@2x.png */; };
+		58F399E71CF14C53002EA589 /* pointRed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F399E41CF14C53002EA589 /* pointRed@3x.png */; };
+		58F399E91CF14D40002EA589 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F399E81CF14D40002EA589 /* MapKit.framework */; };
+		58F399EB1CF14D4E002EA589 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F399EA1CF14D4E002EA589 /* CoreLocation.framework */; };
+		58F399EE1CF16C44002EA589 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F399ED1CF16C44002EA589 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58F06F561CF415000044DEEB /* PathDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDataViewController.h; sourceTree = "<group>"; };
+		58F06F571CF415000044DEEB /* PathDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDataViewController.m; sourceTree = "<group>"; };
+		58F399C81CF14A2A002EA589 /* FindMyFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F399CC1CF14A2A002EA589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F399CE1CF14A2A002EA589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58F399CF1CF14A2A002EA589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58F399D11CF14A2A002EA589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58F399D21CF14A2A002EA589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58F399D51CF14A2A002EA589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58F399D71CF14A2A002EA589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58F399DA1CF14A2A002EA589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58F399DC1CF14A2A002EA589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F399E21CF14C53002EA589 /* pointRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointRed.png; sourceTree = "<group>"; };
+		58F399E31CF14C53002EA589 /* pointRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointRed@2x.png"; sourceTree = "<group>"; };
+		58F399E41CF14C53002EA589 /* pointRed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointRed@3x.png"; sourceTree = "<group>"; };
+		58F399E81CF14D40002EA589 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		58F399EA1CF14D4E002EA589 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		58F399EC1CF16C44002EA589 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		58F399ED1CF16C44002EA589 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F399C51CF14A2A002EA589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F399EB1CF14D4E002EA589 /* CoreLocation.framework in Frameworks */,
+				58F399E91CF14D40002EA589 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F399BF1CF14A2A002EA589 = {
+			isa = PBXGroup;
+			children = (
+				58F399EA1CF14D4E002EA589 /* CoreLocation.framework */,
+				58F399E81CF14D40002EA589 /* MapKit.framework */,
+				58F399CA1CF14A2A002EA589 /* FindMyFriends */,
+				58F399C91CF14A2A002EA589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F399C91CF14A2A002EA589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F399C81CF14A2A002EA589 /* FindMyFriends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F399CA1CF14A2A002EA589 /* FindMyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				58F399E21CF14C53002EA589 /* pointRed.png */,
+				58F399E31CF14C53002EA589 /* pointRed@2x.png */,
+				58F399E41CF14C53002EA589 /* pointRed@3x.png */,
+				58F399CE1CF14A2A002EA589 /* AppDelegate.h */,
+				58F399CF1CF14A2A002EA589 /* AppDelegate.m */,
+				58F399D11CF14A2A002EA589 /* ViewController.h */,
+				58F399D21CF14A2A002EA589 /* ViewController.m */,
+				58F399D41CF14A2A002EA589 /* Main.storyboard */,
+				58F06F561CF415000044DEEB /* PathDataViewController.h */,
+				58F06F571CF415000044DEEB /* PathDataViewController.m */,
+				58F399EC1CF16C44002EA589 /* LoginViewController.h */,
+				58F399ED1CF16C44002EA589 /* LoginViewController.m */,
+				58F399D71CF14A2A002EA589 /* Assets.xcassets */,
+				58F399D91CF14A2A002EA589 /* LaunchScreen.storyboard */,
+				58F399DC1CF14A2A002EA589 /* Info.plist */,
+				58F399CB1CF14A2A002EA589 /* Supporting Files */,
+			);
+			path = FindMyFriends;
+			sourceTree = "<group>";
+		};
+		58F399CB1CF14A2A002EA589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F399CC1CF14A2A002EA589 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F399C71CF14A2A002EA589 /* FindMyFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F399DF1CF14A2A002EA589 /* Build configuration list for PBXNativeTarget "FindMyFriends" */;
+			buildPhases = (
+				58F399C41CF14A2A002EA589 /* Sources */,
+				58F399C51CF14A2A002EA589 /* Frameworks */,
+				58F399C61CF14A2A002EA589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyFriends;
+			productName = FindMyFriends;
+			productReference = 58F399C81CF14A2A002EA589 /* FindMyFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F399C01CF14A2A002EA589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeff Chen";
+				TargetAttributes = {
+					58F399C71CF14A2A002EA589 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 39BRFUJBHD;
+					};
+				};
+			};
+			buildConfigurationList = 58F399C31CF14A2A002EA589 /* Build configuration list for PBXProject "FindMyFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58F399BF1CF14A2A002EA589;
+			productRefGroup = 58F399C91CF14A2A002EA589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F399C71CF14A2A002EA589 /* FindMyFriends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F399C61CF14A2A002EA589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F399E51CF14C53002EA589 /* pointRed.png in Resources */,
+				58F399E61CF14C53002EA589 /* pointRed@2x.png in Resources */,
+				58F399E71CF14C53002EA589 /* pointRed@3x.png in Resources */,
+				58F399DB1CF14A2A002EA589 /* LaunchScreen.storyboard in Resources */,
+				58F399D81CF14A2A002EA589 /* Assets.xcassets in Resources */,
+				58F399D61CF14A2A002EA589 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F399C41CF14A2A002EA589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F399EE1CF16C44002EA589 /* LoginViewController.m in Sources */,
+				58F399D31CF14A2A002EA589 /* ViewController.m in Sources */,
+				58F399D01CF14A2A002EA589 /* AppDelegate.m in Sources */,
+				58F06F581CF415000044DEEB /* PathDataViewController.m in Sources */,
+				58F399CD1CF14A2A002EA589 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58F399D41CF14A2A002EA589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F399D51CF14A2A002EA589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58F399D91CF14A2A002EA589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F399DA1CF14A2A002EA589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F399DD1CF14A2A002EA589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58F399DE1CF14A2A002EA589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F399E01CF14A2A002EA589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.jeffc0216.FindMyFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58F399E11CF14A2A002EA589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.jeffc0216.FindMyFriends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F399C31CF14A2A002EA589 /* Build configuration list for PBXProject "FindMyFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F399DD1CF14A2A002EA589 /* Debug */,
+				58F399DE1CF14A2A002EA589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F399DF1CF14A2A002EA589 /* Build configuration list for PBXNativeTarget "FindMyFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F399E01CF14A2A002EA589 /* Debug */,
+				58F399E11CF14A2A002EA589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F399C01CF14A2A002EA589 /* Project object */;
+}
